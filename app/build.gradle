@@ -4,6 +4,11 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     defaultConfig {
         applicationId "com.eray.enbuyukfener"
         minSdkVersion 28
@@ -33,4 +38,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.mediarouter:mediarouter:1.1.0'
     implementation 'com.android.support:design:29.0.0'
+    implementation 'com.amazonaws:aws-android-sdk-core:2.4.4'
+    implementation 'com.amazonaws:aws-android-sdk-ddb:2.4.4'
+    implementation 'com.amazonaws:aws-android-sdk-ddb-document:2.4.4'
 }
