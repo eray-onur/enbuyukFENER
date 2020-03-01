@@ -7,8 +7,13 @@
         android:icon="@drawable/ic_media_play_dark"
         android:title="Ana Ekran"/>
     <item
-        android:id="@+id/nav_favorites"
+        android:id="@+id/nav_sepet"
         android:icon="@color/mr_cast_meta_default_background"
         android:title="Sepetim"/>
+
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@color/mr_dynamic_dialog_icon_dark"
+        android:title="Profil"/>
 
 </menu>
