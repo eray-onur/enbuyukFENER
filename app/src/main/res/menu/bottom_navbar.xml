@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_home"
-        android:icon="@drawable/ic_media_play_dark"
-        android:title="Ana Ekran"/>
+        android:icon="@mipmap/home"
+        android:title="@string/tab_home"/>
     <item
         android:id="@+id/nav_sepet"
-        android:icon="@color/mr_cast_meta_default_background"
-        android:title="Sepetim"/>
-
+        android:icon="@mipmap/basket"
+        android:title="@string/tab_bucket"/>
     <item
         android:id="@+id/nav_profil"
-        android:icon="@color/mr_dynamic_dialog_icon_dark"
-        android:title="Profil"/>
-
+        android:icon="@mipmap/profile"
+        android:title="@string/tab_profile"/>
 </menu>

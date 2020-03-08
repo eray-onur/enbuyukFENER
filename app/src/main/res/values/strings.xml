@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">En Büyük FENERBAHÇE</string>
+    <string name="tab_profile">Profil</string>
+    <string name="tab_home">Ana Ekran</string>
+    <string name="tab_bucket">Sepetim</string>
+    <string name="app_title">\@app_home</string>
 </resources>
