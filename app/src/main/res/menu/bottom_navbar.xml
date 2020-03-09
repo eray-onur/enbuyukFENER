@@ -7,6 +7,10 @@
         android:icon="@mipmap/home"
         android:title="@string/tab_home"/>
     <item
+        android:id="@+id/nav_search"
+        android:icon="@mipmap/search"
+        android:title="@string/tab_search"/>
+    <item
         android:id="@+id/nav_sepet"
         android:icon="@mipmap/basket"
         android:title="@string/tab_bucket"/>

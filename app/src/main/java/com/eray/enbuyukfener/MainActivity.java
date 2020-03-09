@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.eray.enbuyukfener.Fragments.BasketFragment;
 import com.eray.enbuyukfener.Fragments.HomeFragment;
 import com.eray.enbuyukfener.Fragments.ProfileFragment;
+import com.eray.enbuyukfener.Fragments.SearchFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
@@ -56,6 +57,11 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 fragment = new BasketFragment();
                 toolbarTitle.setText(R.string.tab_bucket);
                 break;
+            case R.id.nav_search:
+                fragment = new SearchFragment();
+                toolbarTitle.setText(R.string.tab_search);
+                break;
+
         }
 
         return loadFragment(fragment);
