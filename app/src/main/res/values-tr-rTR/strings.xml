@@ -19,4 +19,9 @@
     <string name="r_password">Şifrenizi tekrar giriniz.</string>
     <string name="your_surname">Soyadınız.</string>
     <string name="your_username">Kullanıcı adınız.</string>
+    <string name="login">Giriş Yap</string>
+    <string name="or">YA DA</string>
+    <string name="visitor_text">Şuan Ziyaretçi statüsündesiniz. Uygulamanın tüm imkanlarından yararlanabilmek için hesap oluşturabilir ya da var olan hesabınıza giriş yapabilirsiniz!</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="visitor">Ziyaretçi</string>
 </resources>

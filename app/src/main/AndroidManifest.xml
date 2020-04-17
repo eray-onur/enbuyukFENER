@@ -20,6 +20,12 @@
         </activity>
         <activity android:name=".Activities.SecondaryActivity" android:label="@string/tab_bucket">
         </activity>
+        <activity android:name=".Activities.CreateAccountActivity" android:label="@string/create_new_account">
+        </activity>
+        <activity android:name=".Activities.LoginActivity" android:label="@string/login">
+        </activity>
+        <activity android:name=".Activities.VisitorLoginActivity" android:label="@string/visitor">
+        </activity>
     </application>
 
 </manifest>

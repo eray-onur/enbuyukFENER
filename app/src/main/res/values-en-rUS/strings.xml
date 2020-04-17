@@ -19,4 +19,9 @@
     <string name="r_password">Repeat your password.</string>
     <string name="your_surname">Surname</string>
     <string name="your_username">Username</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="visitor_text">You are now a visitor. You can either create an account or log in to your existing account to take advantage of all the benefits of the application!</string>
+    <string name="register">Register</string>
+    <string name="visitor">Visitor</string>
 </resources>
