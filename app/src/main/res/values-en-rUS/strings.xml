@@ -5,4 +5,18 @@
     <string name="tab_home">Home</string>
     <string name="tab_bucket">My Bucket</string>
     <string name="tab_search">Search</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="password">Password</string>
+    <string name="user_name">Username:</string>
+    <string name="enter_password">Password</string>
+    <string name="your_name">Name</string>
+    <string name="repeat_password">Repeat Password:</string>
+    <string name="adress">Adress</string>
+    <string name="adres">Adress:</string>
+    <string name="back">BACK</string>
+    <string name="r_password">Repeat your password.</string>
+    <string name="your_surname">Surname</string>
+    <string name="your_username">Username</string>
 </resources>

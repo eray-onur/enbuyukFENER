@@ -4,4 +4,18 @@
     <string name="tab_home">Ana Ekran</string>
     <string name="tab_bucket">Sepetim</string>
     <string name="tab_search">Ara</string>
+    <string name="surname">Soyad:</string>
+    <string name="name">Ad:</string>
+    <string name="password">Şifre:</string>
+    <string name="create_new_account">Yeni Hesap Oluştur</string>
+    <string name="adress">Adresinizi giriniz.</string>
+    <string name="adres">Adres:</string>
+    <string name="user_name">Kullanıcı Adı:</string>
+    <string name="enter_password">Şifrenizi girin.</string>
+    <string name="your_name">Adınız</string>
+    <string name="repeat_password">Şifre\'yi tekrarla:</string>
+    <string name="back">GERİ</string>
+    <string name="r_password">Şifrenizi tekrar giriniz.</string>
+    <string name="your_surname">Soyadınız.</string>
+    <string name="your_username">Kullanıcı adınız.</string>
 </resources>
