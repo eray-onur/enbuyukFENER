@@ -8,7 +8,7 @@
     android:background="@drawable/background">
 
     <TextView
-        android:id="@+id/create_new_account"
+        android:id="@+id/txtCreateAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
@@ -21,20 +21,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/back"
+        android:id="@+id/btnBack"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:text="@string/back"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/btnCreateNewAccount"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCreateNewAccount"
         android:layout_width="200dp"
         android:layout_height="75dp"
         android:layout_marginEnd="16dp"
@@ -60,7 +60,7 @@
 
 
             <EditText
-                android:id="@+id/name_input"
+                android:id="@+id/edtTextName"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="25dp"
@@ -84,7 +84,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/r_password"
+                android:id="@+id/edtTextRpassword"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="8dp"
@@ -102,11 +102,11 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/password_input"
+                app:layout_constraintTop_toBottomOf="@+id/edtTextPassword"
                 app:layout_constraintVertical_bias="0.0" />
 
             <EditText
-                android:id="@+id/username_input"
+                android:id="@+id/edtTextUsername"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="8dp"
@@ -123,12 +123,12 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toEndOf="@+id/surname"
-                app:layout_constraintTop_toBottomOf="@+id/surname_input"
+                app:layout_constraintStart_toEndOf="@+id/txtSurname"
+                app:layout_constraintTop_toBottomOf="@+id/edtTextSurname"
                 app:layout_constraintVertical_bias="0.0" />
 
             <EditText
-                android:id="@+id/password_input"
+                android:id="@+id/edtTextPassword"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="8dp"
@@ -146,62 +146,65 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/username_input"
+                app:layout_constraintTop_toBottomOf="@+id/edtTextUsername"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/name"
+                android:id="@+id/txtName"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="25dp"
                 android:text="@string/name"
+                android:gravity="center|left"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"
                 android:textColorHighlight="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/name_input"
+                app:layout_constraintEnd_toStartOf="@+id/edtTextName"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/user_name"
+                android:id="@+id/txtUsername"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:background="#FFFFFF"
                 android:text="@string/user_name"
+                android:gravity="center|left"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"
                 android:textColorHighlight="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/username_input"
+                app:layout_constraintEnd_toStartOf="@+id/edtTextUsername"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/surname"
+                app:layout_constraintTop_toBottomOf="@+id/txtSurname"
                 app:layout_constraintVertical_bias="0.002" />
 
             <TextView
-                android:id="@+id/password"
+                android:id="@+id/txtPassword"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:background="#FFFFFF"
                 android:text="@string/password"
+                android:gravity="center|left"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"
                 android:textColorHighlight="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/user_name" />
+                app:layout_constraintTop_toBottomOf="@+id/txtUsername" />
 
             <EditText
-                android:id="@+id/surname_input"
+                android:id="@+id/edtTextSurname"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="8dp"
@@ -218,42 +221,44 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toEndOf="@+id/surname"
-                app:layout_constraintTop_toBottomOf="@+id/name_input"
+                app:layout_constraintStart_toEndOf="@+id/txtSurname"
+                app:layout_constraintTop_toBottomOf="@+id/edtTextName"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/surname"
+                android:id="@+id/txtSurname"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:background="#FFFFFF"
                 android:text="@string/surname"
+                android:gravity="center|left"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"
                 android:textColorHighlight="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/name"
+                app:layout_constraintTop_toBottomOf="@+id/txtName"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/adress"
+                android:id="@+id/txtAdress"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:background="#FFFFFF"
                 android:text="@string/adres"
+                android:gravity="center|left"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"
                 android:textColorHighlight="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/repeat_password" />
+                app:layout_constraintTop_toBottomOf="@+id/txtRpassword" />
 
             <EditText
-                android:id="@+id/adres"
+                android:id="@+id/edtTextAdress"
                 android:layout_width="200dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="8dp"
@@ -269,21 +274,22 @@
                 android:textColorHighlight="#FFFFFF"
                 android:textColorHint="#464646"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/r_password" />
+                app:layout_constraintTop_toBottomOf="@+id/edtTextRpassword" />
 
             <TextView
-                android:id="@+id/repeat_password"
+                android:id="@+id/txtRpassword"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:background="#FFFFFF"
                 android:text="@string/repeat_password"
+                android:gravity="center|left"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"
                 android:textColorHighlight="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/password" />
+                app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
