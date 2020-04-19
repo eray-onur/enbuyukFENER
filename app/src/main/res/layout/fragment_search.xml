@@ -13,7 +13,7 @@
         android:layout_height="69dp"
         android:layout_marginTop="24dp"
         android:accessibilityHeading="false"
-        android:background="@color/cardview_light_background"
+        android:background="#FFFFFF"
         android:isScrollContainer="false"
         android:outlineSpotShadowColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnAra"
             android:layout_width="60dp"
             android:layout_height="41dp"
             android:layout_marginStart="16dp"
@@ -31,17 +31,18 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/txtBasketNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Ara"
+            android:text="@string/ara"
             android:textColor="@color/mr_dynamic_dialog_background_dark"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:autofillHints="" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
@@ -49,7 +50,7 @@
         android:layout_width="163dp"
         android:layout_height="46dp"
         android:layout_marginBottom="31dp"
-        android:text="Arama Filtreleri"
+        android:text="@string/arama_filtreleri"
         android:textColor="@color/mr_cast_meta_black_scrim"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/checkBox"
@@ -61,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:buttonTint="@color/mr_cast_meta_black_scrim"
-        android:text="Menü"
+        android:text="@string/menu"
         android:textColor="@color/mr_cast_meta_black_scrim"
         android:textColorHighlight="@color/mr_cast_meta_black_scrim"
         android:textColorHint="@color/mr_cast_meta_black_scrim"
@@ -78,7 +79,7 @@
         android:layout_marginEnd="89dp"
         android:layout_marginBottom="45dp"
         android:buttonTint="@color/mr_cast_meta_black_scrim"
-        android:text="İşletme"
+        android:text="@string/isletme"
         android:textColor="@color/mr_cast_meta_black_scrim"
         android:textColorHighlight="@color/mr_cast_meta_black_scrim"
         android:textColorHint="@color/mr_cast_meta_black_scrim"

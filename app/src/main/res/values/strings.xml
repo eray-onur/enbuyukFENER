@@ -26,4 +26,17 @@
     <string name="menu_category">Menü Kategorileri</string>
     <string name="restaurants">Restoranlar</string>
     <string name="best_menus">En İyi Menüler</string>
+    <string name="ara">Ara</string>
+    <string name="arama_filtreleri">Arama Filtreleri</string>
+    <string name="menu">Menü</string>
+    <string name="isletme">İşletme</string>
+    <string name="basket">Sepetim</string>
+    <string name="pay">Ödeme Yap</string>
+    <string name="clear_basket">Sepeti temizle</string>
+    <string name="total_payment">Ödeme Tutarı :</string>
+    <string name="xx">XX</string>
+    <string name="order_name">sipariş adı</string>
+    <string name="x1">(x1)</string>
+    <string name="x">(x)</string>
+    <string name="todo">TODO</string>
 </resources>

@@ -27,4 +27,17 @@
     <string name="menu_category">Menu Categories</string>
     <string name="restaurants">Retaurants</string>
     <string name="best_menus">Best Menus</string>
+    <string name="ara">Search</string>
+    <string name="arama_filtreleri">Search Filters</string>
+    <string name="menu">Menu</string>
+    <string name="isletme">Store</string>
+    <string name="pay">Pay</string>
+    <string name="clear_basket">Clear Basket</string>
+    <string name="total_payment">Total Payment :</string>
+    <string name="xx">XX</string>
+    <string name="order_name">Order Name</string>
+    <string name="x1">(x1)</string>
+    <string name="x">(x)</string>
+    <string name="todo">TODO</string>
+    <string name="basket">Basket</string>
 </resources>
