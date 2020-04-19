@@ -8,8 +8,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="428dp"
-        android:layout_height="95dp"
+        android:layout_width="412dp"
+        android:layout_height="94dp"
         android:background="#3F51B5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -20,29 +20,30 @@
             android:id="@+id/txtBasket"
             android:layout_width="115dp"
             android:layout_height="67dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="36dp"
             android:text="@string/basket"
             android:textColor="#000000"
             android:textSize="30sp"
+            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/txtBasketNumber"
+            app:layout_constraintEnd_toStartOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.056"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/txtBasketNumber"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginEnd="181dp"
-            android:autofillHints=""
-            android:ems="10"
-            android:inputType="number"
-            android:textColor="#000000"
-            app:layout_constraintBottom_toBottomOf="@+id/txtBasket"
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="260dp"
+            android:text="@string/x"
+            android:textColor="@color/mr_cast_meta_black_scrim"
+            android:textColorHighlight="@color/mr_cast_meta_black_scrim"
+            android:textColorHint="@color/mr_cast_meta_black_scrim"
+            android:textColorLink="@color/mr_cast_meta_black_scrim"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/txtBasket"
-            app:layout_constraintTop_toTopOf="@+id/txtBasket" />
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -136,12 +137,12 @@
                 android:layout_width="0dp"
                 android:layout_height="79dp"
                 android:layout_marginStart="16dp"
+                android:contentDescription="@string/todo"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/txtOrderName"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_launcher_foreground"
-                android:contentDescription="@string/todo" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/txtOrderName"
