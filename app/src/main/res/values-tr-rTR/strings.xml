@@ -24,4 +24,7 @@
     <string name="visitor_text">Şuan Ziyaretçi statüsündesiniz. Uygulamanın tüm imkanlarından yararlanabilmek için hesap oluşturabilir ya da var olan hesabınıza giriş yapabilirsiniz!</string>
     <string name="register">Kayıt Ol</string>
     <string name="visitor">Ziyaretçi</string>
+    <string name="menu_category">Menü Kategorileri</string>
+    <string name="restaurants">Restoranlar</string>
+    <string name="best_menus">En İyi Menüler</string>
 </resources>
