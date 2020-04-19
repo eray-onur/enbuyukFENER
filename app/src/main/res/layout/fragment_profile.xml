@@ -1,21 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/background"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+
+    <Button
+        android:id="@+id/btnUserUpgrade"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="This is Profile"
-        android:textColor="@color/colorSecondary"
-        android:textSize="25sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="VIP KULLANICI OL"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="205dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="33dp"
+                android:text="Kullanıcı Bilgileri"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/txtNameUpdate"
+                app:layout_constraintEnd_toStartOf="@+id/imgProfileUpdate"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imgProfileUpdate"
+                android:layout_width="55dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="26dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtNameUpdate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtTitle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/update" />
+
+            <TextView
+                android:id="@+id/txtNameTitleUpdate"
+                android:layout_width="59dp"
+                android:layout_height="21dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/txtSurnameTitleUpdate"
+                app:layout_constraintEnd_toStartOf="@+id/txtNameUpdate"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.72" />
+
+            <TextView
+                android:id="@+id/txtSurnameTitleUpdate"
+                android:layout_width="74dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/surname"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/txtUserNameTitleUpdate"
+                app:layout_constraintEnd_toStartOf="@+id/txtSurnameUpdate"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtNameTitleUpdate" />
+
+            <TextView
+                android:id="@+id/txtUserNameTitleUpdate"
+                android:layout_width="114dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/user_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/txtAdressUpdate"
+                app:layout_constraintEnd_toStartOf="@+id/txtUserNameUpdate"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtSurnameTitleUpdate" />
+
+            <TextView
+                android:id="@+id/txtAdresTitle"
+                android:layout_width="100dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="62dp"
+                android:layout_marginBottom="129dp"
+                android:text="@string/adres"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtAdressUpdate"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtUserNameTitleUpdate" />
+
+            <EditText
+                android:id="@+id/edtNameUpdate"
+                android:layout_width="196dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="118dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFFFFF"
+                android:backgroundTintMode="add"
+                android:cursorVisible="false"
+                android:defaultFocusHighlightEnabled="false"
+                android:ems="10"
+                android:hint="@string/your_name"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#464646"
+                app:layout_constraintBottom_toTopOf="@+id/txtSurnameUpdate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtNameTitleUpdate"
+                app:layout_constraintTop_toBottomOf="@+id/imgProfileUpdate" />
+
+            <EditText
+                android:id="@+id/edtSurnameUpdate"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/your_surname"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#464646"
+                app:layout_constraintBottom_toTopOf="@+id/txtUserNameUpdate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtSurnameTitleUpdate"
+                app:layout_constraintTop_toBottomOf="@+id/txtNameUpdate" />
+
+            <EditText
+                android:id="@+id/edtUserNameUpdate"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="40dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/your_username"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#464646"
+                app:layout_constraintBottom_toTopOf="@+id/txtAdressUpdate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtUserNameTitleUpdate"
+                app:layout_constraintTop_toBottomOf="@+id/txtSurnameUpdate" />
+
+            <EditText
+                android:id="@+id/edtAdressUpdate"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="33dp"
+                android:autofillHints=""
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/adress"
+                android:inputType="textMultiLine"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#464646"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/txtAdressUpdate"
+                app:layout_constraintTop_toBottomOf="@+id/txtUserNameUpdate" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
