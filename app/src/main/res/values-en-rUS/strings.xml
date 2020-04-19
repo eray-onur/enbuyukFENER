@@ -24,4 +24,7 @@
     <string name="visitor_text">You are now a visitor. You can either create an account or log in to your existing account to take advantage of all the benefits of the application!</string>
     <string name="register">Register</string>
     <string name="visitor">Visitor</string>
+    <string name="menu_category">Menu Categories</string>
+    <string name="restaurants">Retaurants</string>
+    <string name="best_menus">Best Menus</string>
 </resources>
