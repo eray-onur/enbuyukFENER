@@ -40,4 +40,6 @@
     <string name="x">x</string>
     <string name="todo">TODO</string>
     <string name="secondary" />
+    <string name="e_mail">E-posta:</string>
+    <string name="your_email">E-posta adresiniz.</string>
 </resources>

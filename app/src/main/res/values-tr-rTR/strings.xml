@@ -41,4 +41,6 @@
     <string name="todo">TODO</string>
     <string name="basket">Sepetim</string>
     <string name="secondary" />
+    <string name="your_email">E-posta adresiniz.</string>
+    <string name="e_mail">E-posta:</string>
 </resources>

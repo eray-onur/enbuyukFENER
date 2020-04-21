@@ -8,7 +8,7 @@
     <string name="create_new_account">Create New Account</string>
     <string name="name">Name:</string>
     <string name="surname">Surname:</string>
-    <string name="password">Password</string>
+    <string name="password">Password:</string>
     <string name="user_name">Username:</string>
     <string name="enter_password">Password</string>
     <string name="your_name">Name</string>
@@ -16,7 +16,7 @@
     <string name="adress">Address</string>
     <string name="adres">Address:</string>
     <string name="back">BACK</string>
-    <string name="r_password">Repeat your password.</string>
+    <string name="r_password">Repeat your password</string>
     <string name="your_surname">Surname</string>
     <string name="your_username">Username</string>
     <string name="login">Login</string>
@@ -41,4 +41,6 @@
     <string name="todo">TODO</string>
     <string name="basket">Basket</string>
     <string name="secondary" />
+    <string name="your_email">Your E-mail</string>
+    <string name="e_mail">E-mail:</string>
 </resources>
