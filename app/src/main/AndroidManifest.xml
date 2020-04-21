@@ -18,13 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.SecondaryActivity" android:label="@string/tab_bucket">
-        </activity>
         <activity android:name=".Activities.CreateAccountActivity" android:label="@string/create_new_account">
         </activity>
         <activity android:name=".Activities.LoginActivity" android:label="@string/login">
         </activity>
         <activity android:name=".Activities.VisitorLoginActivity" android:label="@string/visitor">
+        </activity>
+        <activity android:name=".SecondaryActivity" android:label="@string/secondary">
         </activity>
     </application>
 

@@ -36,7 +36,8 @@
     <string name="total_payment">Ödeme Tutarı :</string>
     <string name="xx">XX</string>
     <string name="order_name">sipariş adı</string>
-    <string name="x1">(x1)</string>
-    <string name="x">(x)</string>
+    <string name="x1">x1</string>
+    <string name="x">x</string>
     <string name="todo">TODO</string>
+    <string name="secondary" />
 </resources>

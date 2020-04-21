@@ -13,8 +13,8 @@
     <string name="enter_password">Password</string>
     <string name="your_name">Name</string>
     <string name="repeat_password">Repeat Password:</string>
-    <string name="adress">Adress</string>
-    <string name="adres">Adress:</string>
+    <string name="adress">Address</string>
+    <string name="adres">Address:</string>
     <string name="back">BACK</string>
     <string name="r_password">Repeat your password.</string>
     <string name="your_surname">Surname</string>
@@ -25,7 +25,7 @@
     <string name="register">Register</string>
     <string name="visitor">Visitor</string>
     <string name="menu_category">Menu Categories</string>
-    <string name="restaurants">Retaurants</string>
+    <string name="restaurants">Restaurants</string>
     <string name="best_menus">Best Menus</string>
     <string name="ara">Search</string>
     <string name="arama_filtreleri">Search Filters</string>
@@ -36,8 +36,9 @@
     <string name="total_payment">Total Payment :</string>
     <string name="xx">XX</string>
     <string name="order_name">Order Name</string>
-    <string name="x1">(x1)</string>
-    <string name="x">(x)</string>
+    <string name="x1">x1</string>
+    <string name="x">x</string>
     <string name="todo">TODO</string>
     <string name="basket">Basket</string>
+    <string name="secondary" />
 </resources>
