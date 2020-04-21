@@ -47,23 +47,22 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         switch(menuItem.getItemId()) {
             case R.id.nav_home:
                 fragment = new HomeFragment();
-                toolbarTitle.setText(R.string.tab_home);
+                //toolbarTitle.setText(R.string.tab_home);
                 break;
             case R.id.nav_profil:
                 fragment = new ProfileFragment();
-                toolbarTitle.setText(R.string.tab_profile);
+                //toolbarTitle.setText(R.string.tab_profile);
                 break;
             case R.id.nav_sepet:
                 fragment = new BasketFragment();
-                toolbarTitle.setText(R.string.tab_bucket);
+                //toolbarTitle.setText(R.string.tab_bucket);
                 break;
             case R.id.nav_search:
                 fragment = new SearchFragment();
-                toolbarTitle.setText(R.string.tab_search);
+                //toolbarTitle.setText(R.string.tab_search);
                 break;
 
         }
-
         return loadFragment(fragment);
     }
 }
