@@ -1,1 +1,6 @@
-<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Big Fat Button</button>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
